@@ -8,8 +8,7 @@ using System;
 using System.Threading;
 using UnityEngine;
 
-public class Joycon
-{
+public class Joycon : MonoBehaviour {
     public enum DebugType : int
     {
         NONE,
